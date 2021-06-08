@@ -1,0 +1,158 @@
+* {
+    background-color: black;
+    color: seashell;
+    opacity: 0.9;
+    font-size: 22px;
+    font-family: Helvetica;
+}
+
+/* Header Section */
+
+header {
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+img {
+    height: 50px;
+    margin-left: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    text-decoration: underline;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+/* Mission Section */
+
+#mission {
+    height: 700px;
+    margin-left: 3%;
+    margin-right: 3%;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+#mission-text-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 7px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+/* Tea of the Month Section */
+
+#tea-of-the-month {
+    height: 600px;
+    margin-top: 50px;
+    margin-left: 11%;
+    margin-right: 11%;
+}
+
+#tea-of-the-month-text {
+    text-align: center;
+    line-height: 20px;
+}
+
+#tea-of-the-month-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+#tea-of-the-month-images li {
+    display: inline-block;
+    text-align: center;
+    line-height: 10px;
+}
+
+ul li img {
+    width: 300px;
+    height: 200px;
+}
+
+/* Locations Section */
+
+#locations {
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 3%;
+    margin-right: 3%;
+    line-height: 15px;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#locations h1 {
+    font-size: 35px;
+    text-align: center;
+    background-color: transparent;
+    padding-top: 85px;
+}
+
+#box-container {
+    display: flex;
+    background-color: transparent;
+}
+
+.box {
+    width: 300px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#downtown-box {
+    margin-left: 180px;
+    margin-right: 40px;
+}
+
+#oakdale-box {
+    margin-right: 180px;
+    margin-left: 40px;
+}
+
+/* Contact */
+
+#contact {
+    height: 200px;
+    text-align: center;
+    line-height: 5px;
+}
+
+#contact h2 {
+    margin-bottom: 70px;
+}
+
+#contact h5 {
+    font-size: 18px;
+    margin-top: 45px;
+}
+
+/* Footer */
+
+footer h5 {
+    margin-left: 20px;
+    font-size: 18px;
+    padding-bottom: 25px;
+}
